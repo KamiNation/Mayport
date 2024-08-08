@@ -8,10 +8,10 @@ import Top1RightMap from "./Top1RightMap"
 
 const IndexTop1 = () => {
     return (
-        <div className="flex justify-between mt-12 mb-4 md:flex sm:flex md:flex-col sm:flex-col">
+        <section className="flex justify-between mt-12 mb-4 lg:gap-y-4 lg:flex lg:flex-col md:flex sm:flex md:flex-col sm:flex-col">
             <Top1Left />
             <Top1RightMap />
-        </div>
+        </section>
     )
 }
 

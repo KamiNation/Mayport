@@ -6,7 +6,7 @@ import MiddleFooterHome from "./MiddleFooterHome"
 
 const MiddleFooterMap = () => {
     return (
-        <div className="flex justify-around  items-center border-b border-b-customBrown sm:flex-col md:flex-col">
+        <div className="flex justify-around  items-center border-b border-b-customBrown lg:flex-col sm:flex-col md:flex-col">
             {
                 MiddleFooterContent.map((middlefootercontent: footer) => (
                     <MiddleFooterHome 

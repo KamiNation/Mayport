@@ -6,7 +6,7 @@ import { top1rightmap } from "../constant/global"
 const Top1Right: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
     return (
         <>
-            <div className="flex mr-8 md:mr-4 sm:mr-4 ">
+            <div className="flex mr-8 lg:pr-2 lg:mr-0 md:mr-4 sm:mr-4 ">
                 <ImgComponent
                     image={image}
                 />

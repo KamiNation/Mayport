@@ -13,7 +13,7 @@ const HomeIndex = () => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
         }}
-        className="sm:hidden md:hidden" 
+        className="sm:hidden md:hidden lg:hidden" 
         >
             
         </div>

@@ -13,7 +13,7 @@ import IndexFooter from "./footer/IndexFooter"
 
 const IndexOfIndexes = () => {
     return (
-        <>
+        <section>
             <IndexTop />
             <IndexTop1 />
             <IndexNav />
@@ -25,7 +25,7 @@ const IndexOfIndexes = () => {
             <IndexCard />
             <IndexContact />
             <IndexFooter />
-        </>
+        </section>
     )
 }
 

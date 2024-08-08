@@ -5,7 +5,9 @@ import TrustedHome from "./TrustedHome"
 
 const IndexTrusted = () => {
     return (
-        <TrustedHome />
+        <section>
+            <TrustedHome />
+        </section>
     )
 }
 

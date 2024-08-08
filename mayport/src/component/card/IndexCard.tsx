@@ -4,7 +4,9 @@ import CardMap from "./CardMap"
 
 const IndexCard = () => {
     return (
-        <CardMap />
+        <section>
+            <CardMap />
+        </section>
     )
 }
 

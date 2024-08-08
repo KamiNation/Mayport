@@ -6,7 +6,9 @@ import HomeIndex from "./HomeIndex"
 
 const IndexOfHome = () => {
     return (
-        <HomeIndex />
+        <section>
+            <HomeIndex />
+        </section>
     )
 }
 
