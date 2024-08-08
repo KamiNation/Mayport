@@ -11,10 +11,11 @@ import WhatCard from "./WhatCard"
 
 const WhatMap = () => {
     return (
-        <div className="grid grid-cols-3 gap-8 sm:flex sm:flex-wrap">
+        <div className="grid grid-cols-3 gap-8 sm:flex sm:flex-wrap md:flex md:flex-wrap">
             {
                 WhatMapContent.map((whatmapcontent: top1rightmap) => (
                     <WhatCard
+                    key={whatmapcontent.id}
                         image={whatmapcontent.image}
                         p1={whatmapcontent.p1}
                         p2={whatmapcontent.p2}

@@ -7,10 +7,11 @@ import AchieveR2 from "./AchieveR2"
 const AchieveRightMap = () => {
     return (
 
-        <>  <div className="flex sm:flex-col sm:mb-4">
+        <>  <div className="flex sm:flex-col sm:mb-4 md:flex-col md:mb-4">
             {
                 AchieveR1Content.map((achiever1item: top1rightmap) => (
                     <AchieveR1
+                    key={achiever1item.id}
                         image={achiever1item.image}
                         p1={achiever1item.p1}
                         p2={achiever1item.p2}
@@ -20,10 +21,11 @@ const AchieveRightMap = () => {
                 ))
             }
         </div>
-        <div className="flex sm:flex-col ">
+        <div className="flex sm:flex-col md:flex-col ">
             {
                 AchieveR2Content.map((achiever2item: top1rightmap) => (
                     <AchieveR2 
+                    key={achiever2item.id}
                     image={achiever2item.image}
                     p1={achiever2item.p1}
                     p2={achiever2item.p2}

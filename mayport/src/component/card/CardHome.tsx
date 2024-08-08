@@ -7,7 +7,7 @@ import { top1rightmap } from '../constant/global'
 
 const CardHome: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
     return (
-        <div className="flex flex-col sm:mt-4">
+        <div className="flex flex-col sm:mt-4 md:mt-4">
 
             <ImgComponent
                 imgClass="contain"
@@ -19,7 +19,7 @@ const CardHome: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
             ">
                 <div className="flex flex-col gap-y-4 flex-1 ml-4">
                     <p className="flex text-16">{p1} </p>
-                    <p className="w-360 text-14 text-customGray sm:w-[200px]">{p2} </p>
+                    <p className="w-360 text-14 text-customGray sm:w-[200px] md:w-[220px]">{p2}</p>
                 </div>
 
             </div>

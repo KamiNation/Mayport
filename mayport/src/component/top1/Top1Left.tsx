@@ -5,7 +5,7 @@ import ImgComponent from "../customcomponent/ImgComponent"
 
 const Top1Left = () => {
     return (
-        <div className="flex items-center ml-9 flex-col sm:ml-0 sm:flex sm:justify-center sm:items-center">
+        <div className="flex items-center ml-9 flex-col md:ml-0 sm:ml-0 sm:flex  md:flex md:justify-center sm:justify-center md:items-center sm:items-center">
             <div className="flex justify-center items-center mb-2 ">
                 <div>
                     <ImgComponent

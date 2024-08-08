@@ -6,10 +6,11 @@ import MiddleFooterHome from "./MiddleFooterHome"
 
 const MiddleFooterMap = () => {
     return (
-        <div className="flex justify-around  items-center border-b border-b-customBrown sm:flex-col">
+        <div className="flex justify-around  items-center border-b border-b-customBrown sm:flex-col md:flex-col">
             {
                 MiddleFooterContent.map((middlefootercontent: footer) => (
                     <MiddleFooterHome 
+                    key={middlefootercontent.id}
                     parent={middlefootercontent.parent}
                     child={middlefootercontent.child}
                     child1={middlefootercontent.child1}

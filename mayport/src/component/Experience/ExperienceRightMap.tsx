@@ -12,6 +12,7 @@ const ExperienceRightMap = () => {
       {
         ExperinceRightMap.map((experiencerightmap: top1rightmap) => (
           <ExperienceRight
+          key={experiencerightmap.id}
             image={experiencerightmap.image}
             p1={experiencerightmap.p1}
             p2={experiencerightmap.p2}

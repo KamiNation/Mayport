@@ -9,6 +9,7 @@ const TopFooterMap = () => {
             {
             TopFooterContent.map((topfootercontent: top1rightmap) => (
                 <TopFooterIndex 
+                key={topfootercontent.id}
                 image={topfootercontent.image}
                 p1={topfootercontent.p1}
                 p2={topfootercontent.p2}

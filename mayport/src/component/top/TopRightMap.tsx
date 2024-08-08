@@ -14,6 +14,7 @@ const TopRightMap = () => {
                     {
                         TopRightImage.map((toprightimage: trustedimage) => (
                             <TopRight
+                            key={toprightimage.id}
                                 image={toprightimage.image}
                                 alt={toprightimage.alt}
                             />
