@@ -8,7 +8,7 @@ import ExperienceRight from "./ExperienceRight"
 
 const ExperienceRightMap = () => {
   return (
-    <div className="flex sm:flex sm:flex-col ">
+    <div className="flex sm:flex sm:flex-col flex-1 ">
       {
         ExperinceRightMap.map((experiencerightmap: top1rightmap) => (
           <ExperienceRight

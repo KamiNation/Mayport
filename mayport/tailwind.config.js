@@ -98,7 +98,6 @@ export default {
       clipPath: {
         topPolygon : "polygon(100% 0%, 100% 50%, 100% 100%, 57% 100%, 25% 50%, 0 0);"
       },
-
     },
     screens: {
       'sm': { 'min': '320px', 'max': '480px' },

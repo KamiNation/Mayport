@@ -7,8 +7,8 @@ import Top1Right from "./Top1Right"
 
 const Top1RightMap = () => {
     return (
-        <div className="flex justify-center items-center">
-            <div className="flex">
+        <div className="flex flex-1 justify-center items-center">
+            <div className="flex flex-1">
                 {
                     TopRightMap.map((toprightitem) => (
                         <Top1Right

@@ -8,9 +8,11 @@ import TopRight from "./TopRight"
 
 const TopRightMap = () => {
     return (
-        <div className="flex justify-end bg-customBlue h-72 w-680 sm:w-[250px] md:w-[300px] sm:flex sm:justify-center sn:items-center">
-            <div className="flex items-center">
-                <div className="flex gap-4 ">
+        <div className="flex flex-1 justify-end bg-customBlue h-72 p-4 sm:flex sm:justify-center sm:items-center
+        md:justify-center md:items-center lg:items-center lg:justify-center xl:justify-center xl:items-center
+        ">
+            <div className="flex  items-center">
+                <div className="flex  gap-4 ">
                     {
                         TopRightImage.map((toprightimage: trustedimage) => (
                             <TopRight

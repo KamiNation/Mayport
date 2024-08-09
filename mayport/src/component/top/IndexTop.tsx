@@ -5,7 +5,7 @@ import TopRightMap from "./TopRightMap"
 
 const IndexTop = () => {
     return (
-        <section id="top" className="flex justify-between sm:flex sm:flex-col md:flex ">
+        <section id="top" className="justify-between flex-1  sm:flex sm:flex-col md:flex md:flex-col ">
             <TopLeft />
             <TopRightMap />
         </section>

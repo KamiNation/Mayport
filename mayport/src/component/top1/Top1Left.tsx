@@ -5,8 +5,8 @@ import ImgComponent from "../customcomponent/ImgComponent"
 
 const Top1Left = () => {
     return (
-        <div className="flex items-center ml-9 flex-col md:ml-0 sm:ml-0 sm:flex  md:flex md:justify-center sm:justify-center md:items-center sm:items-center">
-            <div className="flex justify-center items-center mb-2 ">
+        <div className="flex flex-1 items-center ml-9 flex-col md:ml-0 sm:ml-0 sm:flex  md:flex md:justify-center sm:justify-center md:items-center sm:items-center md:mb-6">
+            <div className="flex flex-1 justify-center items-center mb-2 ">
                 <div>
                     <ImgComponent
                         image={earth}
