@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { navbar } from "../constant/global"
 
 
@@ -7,6 +8,9 @@ import { navbar } from "../constant/global"
 
 
 const Nav: React.FC<navbar> = ({ link, navName }) => {
+    useEffect(() => {
+        console.log(link);
+    }, [link])
     return (
 
         <li className="sm:flex ">

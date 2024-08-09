@@ -7,7 +7,9 @@ import ExperienceRightMap from "./ExperienceRightMap"
 
 const ExperienceIndex = () => {
     return (
-        <div className="flex flex-1  mt-4 sm:flex md:flex sm:flex-col md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col">
+        <div className="flex flex-1  mt-4 
+        2xl:flex 2xl:flex-col
+        sm:flex md:flex sm:flex-col md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col">
             <ExperienceLeft />
             <div className="flex flex-1 flex-col justify-center items-center ml-4 text-20v1 sm:text-[15px] md:text-[18px] xl:mt-14 lg:text-[22px]">
                 <div className="flex flex-col flex-1  gap-y-6 text-customGray mb-16">

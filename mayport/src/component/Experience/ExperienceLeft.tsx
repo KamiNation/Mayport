@@ -9,10 +9,17 @@ import ImgComponent from "../customcomponent/ImgComponent"
 const ExperienceLeft = () => {
     return (
         // sm:w-[250px] md:w-[416px] lg:w-[587px] xl:w-[704px]"
-        <div className="flex flex-col mb-4">
-            <div className="w-full h-full rounded-lg">
+        <div className="flex flex-col mb-4
+        border border-emerald-900
+        ">
+            <div className="
+    flex-1 flex
+    border border-orange-600
+            w-full h-full rounded-lg">
                 <ImgComponent
-                classname="w-full"
+                classname="w-full
+                border border-green-900
+                "
                     imgClass="contain"
                     image={boat}
                 />

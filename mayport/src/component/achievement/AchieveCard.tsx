@@ -11,7 +11,7 @@ const AchieveCard: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
                 image={image}
             />
             <div className="flex flex-1 sm:flex md:flex  sm:justify-center lg:ju md:justify-center items-center">
-                <p className="text-56 flex-1 text-custom2White mr-4 sm:text-[1.75rem] md:text-[1.875rem]">  {p1}</p>
+                <p className="text-56 flex-1 text-custom2White mr-4 sm:text-[1.75rem] md:text-[1.875rem]">  {p1} </p>
                 <p className="text-20 flex-1 text-custom3White sm:text-[0.8rem] md:text-[0.75rem]"> {p2}</p>
             </div>
         </div>
