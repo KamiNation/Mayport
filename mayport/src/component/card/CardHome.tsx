@@ -17,8 +17,8 @@ const CardHome: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
             <div className="flex flex-1 flex-col py-[1.5rem] px-[1rem] 
             ">
                 <div className="flex  flex-col gap-y-4 flex-1 ml-4">
-                    <p className="flex text-16 lg:text-[1.125rem]"> {p1} </p>
-                    <p className="w-360 text-14 text-customGray sm:w-[12.5rem] md:w-[13.75rem]">{p2}</p>
+                    <p className="flex text-16 xl:text-[1.9rem] lg:text-[1.125rem]"> {p1} </p>
+                    <p className=" text-14 text-customGray flex-1 xl:text-[1.5rem]">{p2}</p>
                 </div>
 
             </div>

@@ -12,7 +12,7 @@ const ExperienceRight: React.FC<top1rightmap> = ({ p1, p2, image }) => {
       </div>
       </div>
       <div className="flex flex-1 flex-col mt-0">
-        <p className="text-20 flex-1 sm:items-center sm:justify-center flex mb-2"> {p1} </p>
+        <p className="text-20 flex-1 sm:items-center sm:justify-center flex mb-2 xl:items-center xl:justify-center"> {p1}  </p>
         <p className="flex-row flex-1 text-14 text-customGray">{p2}</p>
       </div>
     </div>
