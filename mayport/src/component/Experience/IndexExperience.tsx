@@ -5,7 +5,7 @@ import ExperienceIndex from "./ExperienceIndex"
 
 const IndexExperience = () => {
     return (
-        <section>
+        <section id="experience">
             <ExperienceIndex />
         </section>
     )

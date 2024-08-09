@@ -9,7 +9,7 @@ const ExperienceIndex = () => {
     return (
         <div className="flex mt-4 sm:flex md:flex sm:flex-col md:flex-col lg:flex lg:flex-col">
             <ExperienceLeft />
-            <div className="flex flex-col justify-center items-center ml-4 text-20v1 sm:text-[15px] md:text-[18px] lg:text-[22px]">
+            <div className="flex flex-col justify-center items-center ml-4 text-20v1 sm:text-[15px] md:text-[18px] xl:mt-14 lg:text-[22px]">
                 <div className="flex flex-col gap-y-6 text-customGray mb-16">
                     <p>
                         Over the years, our efficiency and ﬂexibility to handling operations applying to all our relevant Health, Safety, Environment, Community, and Security [HSECS] Policies concerning Human Resources [HR], Technology, and Financial Capability to assess and accept both small, medium-scale, and large-scale oil and gas projects. </p>

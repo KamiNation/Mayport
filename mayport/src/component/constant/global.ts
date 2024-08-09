@@ -71,7 +71,7 @@ export const navBar: navbar[] = [
     {
         id: 0,
         navName: "HOME",
-        link: "#",
+        link: "#home",
     },
     {
         id: 1,
@@ -81,7 +81,7 @@ export const navBar: navbar[] = [
     {
         id: 2,
         navName: "WHAT WE DO",
-        link: "#",
+        link: "#whatwedo",
     },
     {
         id: 3,
@@ -101,7 +101,7 @@ export const navBar: navbar[] = [
     {
         id: 6,
         navName: "CONTACT",
-        // link: ,
+        link: "#contact",
     }
 ]
 
@@ -188,14 +188,14 @@ export const WhatMapContent: top1rightmap[] = [
         id: 0,
         image: arab,
         p1: "De-risking",
-        p2: "involves identifying and mitigating potential project risks through advanced risk assessment techniques and strategic planning. ",
+        p2: "Involves identifying and mitigating potential project risks through advanced risk assessment techniques and strategic planning. ",
         p3: "See More"
     },
     {
         id: 1,
         image: arab1,
         p1: "Due Diligence",
-        p2: "LMayport teams regularly act as independent consultants, engineers, and technical advisors to lenders, owners, and investors.",
+        p2: "Mayport teams regularly act as independent consultants, engineers, and technical advisors to lenders, owners, and investors.",
         p3: "See More"
     },
     {

@@ -5,7 +5,7 @@ import ContactHome from "./ContactHome"
 
 const IndexContact = () => {
     return (
-        <section>
+        <section id="contact">
             <ContactHome />
         </section>
     )

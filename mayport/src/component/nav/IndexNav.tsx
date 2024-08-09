@@ -5,7 +5,7 @@ import NavIndex from "./NavIndex"
 
 const IndexNav = () => {
     return (
-        <section>
+        <section id="nav">
             <NavIndex />
         </section>
     )

@@ -11,7 +11,7 @@ const AchieveRightMap = () => {
             {
                 AchieveR1Content.map((achiever1item: top1rightmap) => (
                     <AchieveR1
-                    key={achiever1item.id}
+                        key={achiever1item.id}
                         image={achiever1item.image}
                         p1={achiever1item.p1}
                         p2={achiever1item.p2}
@@ -21,18 +21,18 @@ const AchieveRightMap = () => {
                 ))
             }
         </div>
-        <div className="flex sm:flex-col md:flex-col lg:flex-col ">
-            {
-                AchieveR2Content.map((achiever2item: top1rightmap) => (
-                    <AchieveR2 
-                    key={achiever2item.id}
-                    image={achiever2item.image}
-                    p1={achiever2item.p1}
-                    p2={achiever2item.p2}
-                    />
-                ))
-            }
-        </div>
+            <div className="flex sm:flex-col md:flex-col lg:flex-col xl:flex-col xl:gap-y-4 ">
+                {
+                    AchieveR2Content.map((achiever2item: top1rightmap) => (
+                        <AchieveR2
+                            key={achiever2item.id}
+                            image={achiever2item.image}
+                            p1={achiever2item.p1}
+                            p2={achiever2item.p2}
+                        />
+                    ))
+                }
+            </div>
         </>
     )
 }

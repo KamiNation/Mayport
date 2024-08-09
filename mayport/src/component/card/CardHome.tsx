@@ -7,12 +7,11 @@ import { top1rightmap } from '../constant/global'
 
 const CardHome: React.FC<top1rightmap> = ({ image, p1, p2 }) => {
     return (
-        <div className="flex flex-col lg:mt-4 sm:mt-4 md:mt-4">
+        <div className="flex flex-col xl:mt-4 lg:mt-4 sm:mt-4 md:mt-4">
 
             <ImgComponent
                 imgClass="contain"
                 image={image}
-                classname=" "
             />
 
             <div className="flex flex-col py-[24px] px-[16] 

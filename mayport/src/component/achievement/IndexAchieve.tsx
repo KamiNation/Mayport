@@ -7,7 +7,7 @@ import HomeAchieve from "./HomeAchieve"
 
 const IndexAchieve = () => {
     return (
-        <section>
+        <section id="achievement">
             <HomeAchieve />
         </section>
     )

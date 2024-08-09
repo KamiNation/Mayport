@@ -5,7 +5,9 @@ import HomeWhat from "./HomeWhat"
 
 const IndexWhat = () => {
   return (
-    <HomeWhat />
+    <section id="whatwedo">
+      <HomeWhat />
+    </section>
   )
 }
 

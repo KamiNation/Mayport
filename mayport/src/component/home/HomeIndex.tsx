@@ -7,13 +7,12 @@ const HomeIndex = () => {
     return (
         <div 
         style={{
-            backgroundImage: `url(${homeIndex})`, 
-            height: "750px", 
-            width: "1165px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover"
+            backgroundImage: `url(${homeIndex})`
         }}
-        className="sm:hidden md:hidden lg:hidden" 
+        className="sm:hidden md:hidden lg:hidden h-[750px] w-[1165px] 
+        xl:flex xl:w-[704px] 
+        
+        bg-no-repeat bg-cover" 
         >
             
         </div>

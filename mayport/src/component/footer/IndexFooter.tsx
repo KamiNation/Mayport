@@ -7,7 +7,7 @@ import FooterHome from "./FooterHome"
 
 const IndexFooter = () => {
     return (
-        <section>
+        <section id="footer">
             <FooterHome />
         </section>
     )

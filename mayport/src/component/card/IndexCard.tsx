@@ -4,7 +4,7 @@ import CardMap from "./CardMap"
 
 const IndexCard = () => {
     return (
-        <section>
+        <section id="card">
             <CardMap />
         </section>
     )

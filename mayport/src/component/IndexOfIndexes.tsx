@@ -13,7 +13,7 @@ import IndexFooter from "./footer/IndexFooter"
 
 const IndexOfIndexes = () => {
     return (
-        <section>
+        <section id="section-index">
             <IndexTop />
             <IndexTop1 />
             <IndexNav />

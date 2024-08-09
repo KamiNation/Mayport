@@ -10,7 +10,7 @@ const AchieveR1: React.FC<top1rightmap> = ({ image, p2, p1, p3 }) => {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover"
             }}
-            className="flex flex-col h-300 justify-center items-center opacity-70 sm:p-4 md:p-4 lg:p-4 sm:w-[256px] md:w-[416px] lg:w-[587px] sm:mb-4 md:mb-4 lg:mb-6 sm:flex md:flex lg:flex sm:flex-col md:flex-col lg:flex-col"
+            className="flex flex-col h-300 justify-center items-center opacity-70 sm:p-4 md:p-4 lg:p-4 sm:w-[256px] md:w-[416px] lg:w-[587px] xl:w-[704px] sm:mb-4 md:mb-4 lg:mb-6 sm:flex md:flex lg:flex sm:flex-col md:flex-col lg:flex-col"
         >
             <div className="px-32 gap-y-4  justify-center items-center flex flex-col sm:px-0 md:px-0 lg:px-0 sm:justify-center md:justify-center lg:justify-center sm:flex md:flex lg:flex">
                 <div className="flex flex-col sm:flex md:flex lg:flex sm:justify-center md:justify-center lg:justify-center sm:items-end md:items-center  lg:items-center">
